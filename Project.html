@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Rawinan Kaewpuang</title>
+    <link rel="icon" href="icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/font.css">
+</head>
+
+<body style="background-color: #333;">
+
+<!--Navbar-->
+    <nav class="navbar bg-primary navbar-dark navbar-expand-lg fw-semibold">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="Logo-Brand" width="50" height="50" class="d-inline-block align-center">
+                Rawinan Kaewpuang's Site
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Experiences.html">Experiences</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Abilities.html">Abilities</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Project.html">Project</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#ContactMe" data-bs-toggle="modal" data-bs-target="#ContactMe">Contact</a>
+                  </li>
+                </ul>
+              </div>
+        </div>
+    </nav>
+    <article>
+      <section class="container-sm text-center mt-5 bg-light rounded p-4">
+          <div class="text-center">
+              <h1 class="display-1 fw-bold">Project</h1>
+              <hr>
+          </div>
+          <div class="row">
+              <div class="col-sm-6">
+                  <div class="ratio ratio-16x9">
+                      <iframe src="https://drive.google.com/file/d/1R1oVRTbvxPf3aEqqwgzyO5nqhNDz5-mH/preview" title="YouTube video" allowfullscreen class="rounded"></iframe>
+                  </div>
+              </div>
+              <div class="col-sm-6 text-center">
+                  <p class="lead">
+                      "BEATBOX KNOCKOUT BU Creative Sandbox X Workpoint"
+                  </p>
+                  <p class="lead">
+                      --- ซูลูปาก้า ตาปาเฮ้ | BU64 ---
+                  </p>
+                  <p class="lead">
+                      TV Production By Students From Bangkok University
+                  </p>
+                  <p class="lead">
+                      @Bangkok University
+                  </p>
+              </div>
+          </div>
+          <hr>
+      </section>
+    </article>
+    <!--Popup modal-->
+    <div class="modal fade" id="ContactMe" tabindex="-1" aria-labelledby="ContactMe" aria-hidden="true">
+        <div class="modal-dialog"> <!--ส่วนป๊อปอัพ-->
+          <div class="modal-content"> 
+            <div class="modal-header"> <!--ส่วนหัวเรื่อง-->
+              <h5 class="modal-title" id="ContactMe">Contact Me</h5> <!--ชื่อหัวเรื่อง-->
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> <!--เครื่องหมาย X-->
+            </div>
+            <div class="modal-body">
+              <address>
+                <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Email address</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                  </form>
+              </address>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Send</button>
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>   
+</body>
+</html>
